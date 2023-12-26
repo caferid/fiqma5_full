@@ -1,0 +1,29 @@
+.header {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+
+    .nav {
+        grid-area: 1 / 1 / 2 / 2;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        p{
+            &:hover{
+            color: yellowgreen;
+        }}
+    }
+
+    .div2 {
+        grid-area: 1 / 2 / 2 / 6;
+    }
+}

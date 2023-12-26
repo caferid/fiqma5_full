@@ -1,0 +1,81 @@
+.Main_container {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    gap: 148px;
+
+    .header_and_navbar {
+        display: flex;
+        align-items: center;
+        gap: 190px;
+
+        .navbar {
+            display: flex;
+            align-items: flex-start;
+            gap: 48px;
+           .navlink{
+            
+            &.active,&:hover{
+                color: yellowgreen;
+            }
+           }
+            .active{
+                color: yellowgreen;
+                text-decoration:underline;
+            }
+        }
+    }
+
+    .search_and_icon {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        .search {
+            display: flex;
+            padding: 7px 12px 7px 20px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 4px;
+                background-color:#F5F5F5   ;
+            .box {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 34px;
+
+
+                .lopa {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                input {
+                    background-color: aqua;
+                    color: var(--Text2, #000);
+
+                    /* Title/12PX Regular */
+                    font-family: Poppins;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+                    /* 150% */
+                }
+            }
+        }
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+        }
+    }
+}

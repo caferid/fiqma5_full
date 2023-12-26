@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        border-radius: 4px;
+        background: var(--Secondary, #F5F5F5);
+        .endirim {
+            display: inline-flex;
+            padding: 4px 12px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 4px;
+            background: var(--Secondary-2, #DB4444);
+
+            p {
+                color: var(--Text, #FAFAFA);
+
+                /* Title/12PX Regular */
+                font-family: Poppins;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18px;
+                /* 150% */
+            }
+        }
+
+        .imgbox {
+            display: flex;
+            width: 190px;
+            height: 180px;
+            padding: 14px 9px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+
+            img {
+                width: 172px;
+                height: 152px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+
+        .p1 {
+            color: #000;
+            /* Title/16PX Medium */
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 150% */
+        }
+
+        .pricebox {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+
+            .price {
+                color: var(--Secondary-2, #DB4444);
+            }
+
+            .endrimli {
+                color: var(--Button, #000);
+                text-decoration-line: strikethrough;
+                opacity: 0.5;
+            }
+        }
+
+        .rating {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+
+            .ulduz {
+                display: flex;
+                align-items: flex-start;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    fill: #FFAD33;
+                }
+            }
+
+            .deyeri {
+                width: 32px;
+                height: 20px;
+                color: var(--Text2, #000);
+                opacity: 0.5;
+                /* Title/14PX Semibold */
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 21px;
+                /* 150% */
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.container {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 1200px;
+    .btn{
+        margin: auto;
+        button {
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Button2, #DB4444);
+    color: var(--Text, #FAFAFA);
+        /* Title/16PX Medium */
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+    }}
+}

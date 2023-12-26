@@ -1,0 +1,44 @@
+#new-arrival {
+    .container {
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        max-width: 1200px;
+
+        .main {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            
+            gap: 10px;
+
+            .div1 {
+                grid-area: 1 / 1 / 3 / 3;
+              ;
+            background: black;
+
+            }
+
+
+
+            .div2 {
+                grid-area: 2 / 3 / 3 / 4;
+            background: black;
+
+            }
+
+            .div3 {
+                grid-area: 2 / 4 / 3 / 5;
+            background: black;
+
+            }
+
+            .div4 {
+                grid-area: 1 / 3 / 2 / 5;
+            }
+        }
+    }
+}
